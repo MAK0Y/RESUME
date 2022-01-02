@@ -1,7 +1,6 @@
 body{
-    background: url(/bg.png);
-    background-repeat: no-repeat;
-    background-size: 1920px 1080px;
+    background: url(/white2.jpg);
+    background-size: cover;
 }
 
 .box{
@@ -34,12 +33,6 @@ body{
     background:rgb(243, 240, 240);
     border-radius: 10px;
     box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.66);
-}
-
-.home{
-    display: flex;
-    margin-top: 14px;
-    margin-left: 15px;
 }
 
 ul.list2{

@@ -1,5 +1,5 @@
 body{
-    background: url(/white2.jpg);
+    background: url(/ICONS/white2.jpg);
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
@@ -12,6 +12,7 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .box{
@@ -29,7 +30,6 @@ body{
     background:rgb(243, 240, 240);
     border-radius: 10px;
     box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.66);
-    color: blue;
 }
 
 .container2{
@@ -37,7 +37,7 @@ body{
     place-items: center;
     display: flex;
     flex-direction: row;
-    width: 1180px;
+    width: 1200px;
     height: 50px;
     margin-top: 10px;
     margin-left: 20px;
@@ -84,7 +84,7 @@ li.l1{
 
 
 .container3{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-inline: 5%;
     box-sizing: border-box;
     width: 1200px;
@@ -92,6 +92,38 @@ li.l1{
     margin: 20px;
     background:rgb(243, 240, 240);
     border-radius: 10px;
-    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.66);
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.66); 
 }
 
+.container3 .content{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul.list3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.l2{
+    border-radius: 10px;
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background: rgb(226, 221, 221);
+    text-align: center;
+}
+
+.p2{
+    font-weight: bold;
+    font-size: 18px;
+}
